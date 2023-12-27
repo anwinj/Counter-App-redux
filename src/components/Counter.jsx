@@ -13,6 +13,7 @@ function Counter() {
     }
     else{
       dispatch(incrementByAmount(Number(amount)))
+      setAmount("")
     }
   }
 
